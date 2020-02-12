@@ -3,13 +3,7 @@ body {
     height: 100%;
     width: 100%;
 }
-/* html{
-      background: url('./images/image2.jpg') no-repeat center center fixed; 
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-} */
+
 
 .BannerTop{
   color:white;
@@ -26,14 +20,6 @@ body {
 .navBar{
   width: 25%;
   height: 0vh;
-  /* background-color:rgb(91, 91, 92);
-  height:100%;
-  border:2px solid black;
-  width: 180px;
-  position:fixed;
-  top:0; */
-  /* flex: 0 0 12em;
-  transition: all 0.3s ease */
 }
 #navButton{
   list-style:none; 
@@ -48,7 +34,6 @@ body {
   font-size:30px;
   margin:15px;
   margin-top:200px;
-
 }
 
 .links{
@@ -88,11 +73,26 @@ body {
   height: 500px;
 }
 
+.quoteDisplay{
+  font-size:18px;
+  /* float:right; */
+  margin:50px;
+  text-align:center;
+}
+
+.trailHeading{
+  text-align:center;
+  background-color:skyblue;
+  margin:0px;
+  height:100px;
+  padding:30px;
+}
 @media only screen and (max-width: 768px) {
  .trailContents{
-   width:100%;
+   width:auto;
    /* top:-200px; */
    max-height:500px;
+   margin-right:0px;
  }
 
  .middleImage{
@@ -101,7 +101,8 @@ body {
  }
 
  .welcome{
-   margin-top:99px;
+  margin-top:120px;
+  
  }
  .links{
    margin-top:10px;

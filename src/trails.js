@@ -42,6 +42,7 @@ class HikingTrails extends Component {
                             <h3>{item.name} </h3>
                             <img className = 'img' src = {item.imgSmall} />
                             <p>{item.summary}</p>
+                            <a href = {item.url}>Check it out</a>
                         </div>
                     ))}
                 </div>

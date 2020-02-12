@@ -5,6 +5,7 @@ import NavBar from './nav.js';
 import HikingTrails from './trails.js';
 import Middle from './middle.js';
 import Quote from './quote.js';
+import Foot from './footer.js';
 
 function App() {
   return (
@@ -19,13 +20,13 @@ function App() {
       <NavBar />
       </div>
       <div className = 'trailContents'>
-      <h1 className ='trailHeading'>Muir Woods</h1>
+      <h1 className ='trailHeading'>Hikes Near the Ocean</h1>
       <HikingTrails />
       </div>
-      {/* <div className = 'quoteDisplay'>
-      <Quote /> 
-      </div> */}
       <Middle />
+      <div>
+      <Foot />
+      </div>
     </div>
   
   );

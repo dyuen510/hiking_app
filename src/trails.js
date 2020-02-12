@@ -40,9 +40,11 @@ class HikingTrails extends Component {
                     {items.map(item => (
                         <div className ='content' key={item.name}>
                             <h3>{item.name} </h3>
+                            <h4>{item.location}</h4>
                             <img className = 'img' src = {item.imgSmall} />
                             <p>{item.summary}</p>
                             <a href = {item.url}>Check it out</a>
+                            <hr />
                         </div>
                     ))}
                 </div>

@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
 import Banner from './banner.js';
-import NavBar from './nav.js';
 import HikingTrails from './trails.js';
 import Middle from './middle.js';
 import Quote from './quote.js';
 import Foot from './footer.js';
+import SearchBar from './searchBar.js';
+import './mediaQueries.css'
 
 function App() {
   return (
@@ -16,11 +17,9 @@ function App() {
       <div className = 'quoteDisplay'>
       <Quote /> 
       </div>
-      <div>
-      <NavBar />
-      </div>
       <div className = 'trailContents'>
       <h1 className ='trailHeading'>Hikes Near the Ocean</h1>
+      {/* <SearchBar /> */}
       <HikingTrails />
       </div>
       <Middle />

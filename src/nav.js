@@ -7,7 +7,7 @@ class NavBar extends Component {
             <div className = 'navBar'>
                 <h3 className = 'welcome'>Welcome</h3>
                 <ul className = 'links'>
-                    <li id = 'navButton'>Home</li>
+                    <li id ='navButton'>Blogs</li>
                     <li id ='navButton'>Events</li>
                     <li id = 'navButton'>Articles</li>
                     <li id = 'navButton'>Contact</li>

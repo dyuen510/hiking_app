@@ -1,0 +1,19 @@
+@media (max-width: 767px) {
+    .BannerTop{
+        font-size:18px;
+    }
+    .welcome{
+        margin-top: 0px;
+        font-size:15px;
+    }
+
+    .links{
+        margin-top: 10px;
+        font-size:10px;
+        padding:2px;
+    }
+
+    #navButton{
+        padding:10px;
+    }
+}

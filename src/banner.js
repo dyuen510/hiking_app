@@ -7,7 +7,8 @@ class Banner extends Component{
     render(){
         return (
             <div className = 'BannerTop'>
-                <h2>Welcome to the Hiking Website</h2>
+                <h2>The Hiking Experience</h2>
+                < NavBar />
             </div>
             
         )

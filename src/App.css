@@ -44,10 +44,7 @@ body {
   font-size:20px;
 }
 
-/*muir woods content*/
-.trailHeading{
-  font-family:'Rock Salt', cursive;
-}
+/*hiking content*/
 .content{
   font-size:14px;
   margin:10px;
@@ -57,7 +54,6 @@ body {
 }
 
 .trailContents{
-  /* margin-left:180px; */
   width:auto;
   max-height:600px;
   overflow-y: auto;
@@ -65,8 +61,6 @@ body {
   position:relative;
   top:0px;
   justify-content:center;
-  /* margin-bottom:100px; */
-  /* box-shadow: inset 0 0 0 5px lightblue; */
 }
 
 .img{
@@ -88,10 +82,12 @@ body {
 
 .trailHeading{
   text-align:center;
-  background-color:skyblue;
+  background-color:rgb(128, 43, 43);
   margin:0px;
   height:100px;
   padding:30px;
+  font-family:'Rock Salt', cursive;
+
 }
 
 /*quote*/

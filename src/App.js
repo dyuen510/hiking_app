@@ -18,7 +18,7 @@ function App() {
       <Quote /> 
       </div>
       <div className = 'trailContents'>
-      <h1 className ='trailHeading'>Hikes Near the Ocean</h1>
+      <h1 className ='trailHeading'>Check Out These Hikes</h1>
       {/* <SearchBar /> */}
       <HikingTrails />
       </div>

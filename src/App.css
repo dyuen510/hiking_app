@@ -65,7 +65,7 @@ body {
   position:relative;
   top:0px;
   justify-content:center;
-  margin-bottom:100px;
+  /* margin-bottom:100px; */
   /* box-shadow: inset 0 0 0 5px lightblue; */
 }
 
@@ -83,7 +83,7 @@ body {
   width: 100%;
   height: 500px;
   position:relative;
-  top:-100px;
+  /* top:-100px; */
 }
 
 .trailHeading{
@@ -107,10 +107,16 @@ body {
 .footer{
   font-size:12px;
   width:auto;
-  height: 80px;
+  height: 30vh;
   background-color:darkslategrey;
   text-align:center;
   color:white;
   padding:15px;
 }
-/*media queries*/
+
+.socialMedia{
+  /* float:right; */
+  position:relative;
+  top:-10px;
+  /* right:200px; */
+}

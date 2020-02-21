@@ -9,9 +9,9 @@ class Social extends Component{
         return (
             <div className = 'socialMedia'>
                 <h3>Connect With Me</h3>
-                <a href = 'https://www.linkedin.com/in/david-yuen-549bb3b5/'><img src = {logo} /></a>
-                <a href = 'https://github.com/dyuen510'><img src = {logo2} /></a> 
-                <a href = 'https://www.instagram.com/dave.yuen'><img src = {logo3} width ='70px'/></a> 
+                <a href = 'https://www.linkedin.com/in/david-yuen-549bb3b5/'><img src = {logo} alt='linkedin logo' /></a>
+                <a href = 'https://github.com/dyuen510'><img src = {logo2} alt ='github logo'/></a> 
+                <a href = 'https://www.instagram.com/dave.yuen'><img src = {logo3} width ='70px' alt ='instagram logo'/></a> 
             </div>
         )
     }

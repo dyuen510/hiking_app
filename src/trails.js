@@ -49,7 +49,7 @@ class HikingTrails extends Component {
                         <div className='content' key={item.name}>
                             <h3>{item.name} </h3>
                             <h4>{item.location}</h4>
-                            <img className='img' src={item.imgSmall} />
+                            <img className='img' src={item.imgSmall} alt ='trail image' />
                             <p>{item.summary}</p>
                             <a href={item.url}>Check it out</a>
                             <hr />
@@ -59,6 +59,5 @@ class HikingTrails extends Component {
             );
         }
     }
-// }
 
 export default HikingTrails

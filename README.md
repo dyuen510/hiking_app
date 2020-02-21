@@ -38,3 +38,4 @@ In smaller screens the nav bar will shrink and margins on top of "welcome" and n
     <img src="src/images/readmeimg5.png" width="400px"</img> 
 </div>
 
+Used: React.js, html, css, and fetch.

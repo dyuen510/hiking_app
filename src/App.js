@@ -18,7 +18,6 @@ function App() {
       </div>
       <div className = 'trailContents'>
       <h1 className ='trailHeading'>Check Out These Hikes</h1>
-      {/* <SearchBar /> */}
       <HikingTrails />
       </div>
       <Middle />

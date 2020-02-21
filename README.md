@@ -6,7 +6,7 @@ Currently working on creating a hiking webpage with html, css, javascript, fetch
 
 
 <div align="center">
-    <img src="src/images/readmeimg.png" width="400px"</img> 
+    <img src="src/images/readmeimg1.png" width="400px"</img> 
 </div>
 Decided to combine the navigation bar into the top banner. The nav buttons aren't functional just yet because
 those pages don't exist. 
@@ -16,7 +16,7 @@ Name of the hike, location, a short description and a link would be available if
 Once clicked would automatically direct the user to www.hikingproject.com where users will be able to see ratings, comments, etc.
 
 <div align="center">
-    <img src="src/images/readmeimg2.png" width="400px"</img> 
+    <img src="src/images/readmeimgtwo.png" width="400px"</img> 
 </div>
 
 At the end of the page I added a image right below the content and above the footer. The footer contains 

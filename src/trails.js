@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './App.css'
-import SearchBar from './searchBar.js';
 
 
 class HikingTrails extends Component {
@@ -42,14 +41,14 @@ class HikingTrails extends Component {
             )
     }
     render() {
-        const { error, isLoaded, items } = this.state;
+        const { items } = this.state;
             return (
                 <div className='trailList'>
                     {items.map(item => (
                         <div className='content' key={item.name}>
                             <h3>{item.name} </h3>
                             <h4>{item.location}</h4>
-                            <img className='img' src={item.imgSmall} alt ='trail image' />
+                            <img className='img' src={item.imgSmall} alt ='trail' />
                             <p>{item.summary}</p>
                             <a href={item.url}>Check it out</a>
                             <hr />

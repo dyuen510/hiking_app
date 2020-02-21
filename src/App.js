@@ -5,7 +5,6 @@ import HikingTrails from './trails.js';
 import Middle from './middle.js';
 import Quote from './quote.js';
 import Foot from './footer.js';
-import SearchBar from './searchBar.js';
 import './mediaQueries.css'
 
 function App() {

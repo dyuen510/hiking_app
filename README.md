@@ -39,3 +39,5 @@ In smaller screens the nav bar will shrink and margins on top of "welcome" and n
 </div>
 
 Used: React.js, html, css, and fetch.
+
+Deployed Link : https://hiking-project-app.herokuapp.com/

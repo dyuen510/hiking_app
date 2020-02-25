@@ -1,3 +1,4 @@
+/* ##devices most smart phones. */
 @media (max-width: 767px) {
     .BannerTop{
         font-size:18px;
@@ -22,7 +23,8 @@
     }
 }
 
-@media (min-width: 2560px){
+/* ##Desktop devices */
+@media (min-width: 1281px){
     .middleImage{
         -moz-background-size: 100% 100%;
         -webkit-background-size: 100% 100%;

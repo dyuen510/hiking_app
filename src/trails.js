@@ -10,13 +10,7 @@ class HikingTrails extends Component {
             isLoaded: false,
             items: [],
         }
-        // this.handleChange = this.handlechange.bind(this);
     }
-
-    // handlechange(event){
-    //     event.preventDefault();
-    //     this.setState({[event.target.name]: event.target.value});
-    // }
 
 
     componentDidMount() {
